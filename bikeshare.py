@@ -168,7 +168,7 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % round((time.time() - start_time),2))
     print('-'*40)
-
+# I created this function to display the next five records if  a user wants to.
 def display_record(df):
     
     """
